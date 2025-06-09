@@ -6,7 +6,7 @@ body {
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem;
 }
 
@@ -23,7 +23,6 @@ h2 {
 
 p {
   max-width: 600px;
-  text-align: center;
   margin-top: 1rem;
   line-height: 1.6;
 }
@@ -31,6 +30,7 @@ p {
 a {
   color: #4dc3ff;
   text-decoration: none;
+  justify-content: center;
   margin: 0 0.5rem;
 }
 
@@ -38,4 +38,8 @@ footer {
   margin-top: 2rem;
   font-size: 0.8rem;
   color: #555;
+}
+
+video {
+  height: 50vh;
 }
